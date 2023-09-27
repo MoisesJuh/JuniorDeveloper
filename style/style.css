@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Modak&family=Wendy+One&display=swap');
+
+@media  screen and (max-width:1050px) {
+  main #sectiontext h1{
+    text-align: center;
+    font-size: 30px;
+    width: 80vw;
+  
+    font-family: var(--fontwendy);
+    color: var(--corbranco);
+  }
+
+  main #sectionimg{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background:white url(img/moisesfoto.jpg) center center no-repeat ;
+    background-size: cover;
+  
+    border-radius: 50%;
+  
+  
+    min-width: 400px;
+    height: 400px;
+  }
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  text-decoration: none;
+}
+
+body{
+  width: 100vw;
+  height: 100dvh;
+  overflow-x: hidden;
+}
+
+:root{
+  --fontmodak:'Modak';
+  --fontwendy:'Wendy One';
+  --fontlilita:'Lilita One';
+  
+  --corescuro:#4d0491;
+  --cormedio:#640ba7;
+  --corbranco:#ffffff;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+
+  background:url(img/fundo.png);
+}
+
+#sectiontext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+
+  width: 50%;
+  height: 100%;
+}
+
+#sectiontext h1{
+  text-align: center;
+  font-size: 30px;
+  width: 650px;
+
+  font-family: var(--fontwendy);
+  color: var(--corbranco);
+}
+.nav_links{
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+.p_links{
+  width: 400px;
+  height: 50px;
+
+  border: 1px solid var(--corbranco);
+  border-radius: 20px;
+
+  transition: 0.5s;
+
+}
+.p_links:hover{
+  border: 1px solid var(--corescuro);
+  background-color: var(--corbranco);
+}
+.p_links:hover a{
+  color: var(--cormedio);
+  scale: 1.2;
+}
+.p_links a{
+  color: var(--corbranco);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  font-family: var(--fontlilita);
+  transition: 0.5s;
+}
+
+#sectionimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:white url(img/moisesfoto.jpg) center center no-repeat ;
+  background-size: cover;
+
+  border-radius: 50%;
+
+
+  min-width: 400px;
+  height: 400px;
+}
+
