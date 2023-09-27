@@ -97,6 +97,7 @@ button:hover{
   left: 20px;
   font-size: 30px;
   position: absolute;
+  z-index: 1000;
 
   transition: 0.5s;
 }
