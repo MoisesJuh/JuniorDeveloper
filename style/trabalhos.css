@@ -105,6 +105,7 @@ button:hover{
   z-index: 1000;
 
   transition: 0.5s;
+  text-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.644);
 }
 .fa-solid:hover{
   font-size: 32px;
