@@ -47,7 +47,7 @@ section{
   justify-content: center;
   align-items: center;
 
-  width: 355px;
+  width: 100vw;
   max-height: 660px;
   overflow-y: hidden;
   gap: 20px;
