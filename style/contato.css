@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Modak&family=Wendy+One&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  text-decoration: none;
+}
+
+body{
+  width: 100vw;
+  height: 100dvh;
+}
+
+:root{
+  --fontmodak:'Modak';
+  --fontwendy:'Wendy One';
+  --fontlilita:'Lilita One';
+  
+  --corescuro:#4d0491;
+  --cormedio:#640ba7;
+  --corbranco:#ffffff;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100dvh;
+  gap: 20px;
+
+  background: url(img/fundo.png) no-repeat center center ;
+  background-size: cover;
+}
+
+.p_links{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  background-color: var(--corbranco);
+  color: var(--cormedio);
+
+  font-family: var(--fontlilita);
+  font-size: 25px;
+
+  border-radius: 15px;
+  
+}
+.p_links i{
+  font-size: 35px;
+}
+.fa-hand-point-left{
+  transition: 0.5s;
+}
+
+.p_links:hover .fa-hand-point-left{
+  translate: -10px;
+}
+
+.email{
+  font-size: 15px;
+  font-family: var(--fontwendy);
+}
+
+.fa-backward,#voltar{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+
+  color: var(--corbranco);
+  width: 20px;
+  height: 20px;
+
+  font-size: 30px;
+
+  transition: 0.5s;
+}
+
+#voltar:hover .fa-backward{
+  translate: 10px;
+}

@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Modak&family=Wendy+One&display=swap');
 
 @media  screen and (max-width:1050px) {
+
   main #sectiontext h1{
     text-align: center;
     font-size: 30px;
